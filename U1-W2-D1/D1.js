@@ -107,6 +107,6 @@ console.log(
                                   il risultato sarebbe stato vero. */
 
 console.log(
-  name1 !== name2.toLowerCase
-); /* Aggiungendo ".toLowerCase" lo statement risulta vero, 
+  name1 !== name2.toLowerCase()
+); /* Aggiungendo ".toLowerCase" lo statement risulta falso, 
                                              in quanto mi ha modificato il secondo nome tutto in minuscolo. */
